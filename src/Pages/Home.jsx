@@ -60,15 +60,15 @@ function Home() {
         <img
           src={BannerImage}
           alt=""
-          className="banner-logo"
+          className="banner-logo md:shrink-0 object-cover"
           draggable={false}
         ></img>
         <h1 className="banner-title">Your trusted tech partner.</h1>
-        <img src={Banner} alt="Banner" className="banner"></img>
+        <img src={Banner} alt="Banner" className="banner md:shrink-0"></img>
       </div>
-      <div className="section2">
+      <div className="section2 mb-10">
         <h2 className="category-title">Categories</h2>
-        <div className="categories">
+        <div className="categories md:flex-row flex-col gap-10 flex-wrap justify-center items-center sm:gap-20 sm:h-150">
           {categories.map((category) => (
             <div key={category.id} className="category">
               <Link
@@ -87,12 +87,12 @@ function Home() {
           ))}
         </div>
       </div>
-      <div className="img-section">
+      <div className="img-section mb-10">
         <div className="img-info">
           <h1>Premium Tech for Every User.</h1>
           <br></br>
           <br></br>
-          <p>
+          <p className="sm:text-sm md:text-lg">
             Whether you’re a professional editor, a hardcore gamer, or a student
             looking for a reliable workstation, BYTE has you covered. We
             specialize in high-performance machines that don't compromise on
@@ -108,11 +108,15 @@ function Home() {
           </p>
         </div>
 
-        <img src={Display} alt="displayImg" className="displayImg"></img>
+        <img
+          src={Display}
+          alt="displayImg"
+          className="displayImg w-32 h-32 object-cover"
+        ></img>
       </div>
-      <div className="section3">
+      <div className="section3 mb-10 ">
         <h2 className="category-title">Brands</h2>
-        <div className="categories">
+        <div className="categories md:flex-row flex-col gap-10 flex-wrap justify-center items-center sm:gap-20 sm:h-150">
           {brands.map((brand) => (
             <div key={brand.id} className="category">
               <Link

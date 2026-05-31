@@ -5,9 +5,9 @@ import Logo from "../assets/BYTE_Logo_1-removebg-preview (1).png";
 function Footer() {
   return(
   <>
-    <div className="bottombar">
+    <div className="bottombar md:flex-row flex-col gap-10 flex-wrap justify-center items-center w-full">
       <div className="b-logo">
-        <img src={Logo} alt="LOGO" className="bottom-logo"></img>
+        <img src={Logo} alt="LOGO" className="bottom-logo sm:w-32 md:w-48"></img>
       </div>
       <div className="copyright" style={{ borderTop: "1px solid white" }}>
         <h3>&copy;2026. Made by Hadi Awad.</h3>

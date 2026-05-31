@@ -6,8 +6,9 @@ import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <>
-      <div className="container">
-        <div className="topbar">
+ 
+      <div className="container w-full flex-wrap justify-between items-center mx-auto px-4">
+        <div className="topbar ">
           <img src={Logo} alt="LOGO" className="logo"></img>
           <input
             type="text"
@@ -28,8 +29,9 @@ function NavBar() {
             </Link>
           </div>
         </div>
-        <div className="navbar">
-          <ul className="nav-links">
+        </div>
+        <div className="navbar ">
+          <ul className="nav-links md:flex md:justify-center md:items-center flex-col md:flex-row gap-3 text-left md:gap-10">
             <li>
               <Link to="/" className="nav-link">
                 Home
@@ -60,7 +62,7 @@ function NavBar() {
             </li>
           </ul>
         </div>
-      </div>
+      
     </>
   );
 }
