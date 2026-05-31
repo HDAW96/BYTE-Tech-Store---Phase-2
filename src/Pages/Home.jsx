@@ -10,7 +10,9 @@ import CPUs from "../assets/CPU.png";
 import GPUs from "../assets/gpu.png";
 import Monitors from "../assets/Monitor.png";
 import AMD from "../assets/amd.png";
+
 import ASUS from "../assets/ASUS.png";
+
 import Promate from "../assets/promate.png";
 import Redragon from "../assets/redragon.png";
 import Gigabyte from "../assets/gigabyte-vector-logo.png";
