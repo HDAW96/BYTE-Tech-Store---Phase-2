@@ -60,10 +60,10 @@ function Home() {
         <img
           src={BannerImage}
           alt=""
-          className="banner-logo md:shrink-0 object-cover"
+          className="banner-logo sm:shrink-0"
           draggable={false}
         ></img>
-        <h1 className="banner-title">Your trusted tech partner.</h1>
+        <h1 className="banner-title sm:text-l md:text-3xl sm:translate-x-700">Your trusted tech partner.</h1>
         <img src={Banner} alt="Banner" className="banner md:shrink-0"></img>
       </div>
       <div className="section2 mb-10">
@@ -111,7 +111,7 @@ function Home() {
         <img
           src={Display}
           alt="displayImg"
-          className="displayImg w-32 h-32 object-cover"
+          className="displayImg sm:w-16 sm:h-16 sm:object-cover"
         ></img>
       </div>
       <div className="section3 mb-10 ">
