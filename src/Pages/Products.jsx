@@ -4,6 +4,10 @@ import "../fontawesome/css/all.css";
 import { Link } from "react-router-dom";
 
 function Products() {
-  return <>first product</>;
+  return (
+  <>
+  
+  </>
+  )
 }
 export default Products;
