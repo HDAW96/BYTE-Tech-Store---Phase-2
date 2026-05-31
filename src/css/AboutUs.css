@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainTitle {
+  font-family: "Michroma", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+}
+.mainTitle h1 {
+  font-family: "Michroma", sans-serif;
+  font-size: 2.5rem;
+  padding: 0 10px;
+}
+.mainText {
+  font-family: "Michroma", sans-serif;
+  text-align: left;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+  line-height: 1.8;
+}
+.mainContent {
+  width: auto;
+  height: auto;
+}
