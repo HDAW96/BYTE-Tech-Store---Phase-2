@@ -1,82 +1,75 @@
-# Project Name
+# BYTE Tech Store
 
-A modern web application built with React and Vite.
+## Overview
 
-## Features
+BYTE Tech Store is a modern tech-focused project built to simulate a premium hardware ecosystem specializing in custom PC builds, refurbished high-performance laptops, and restored classic gaming consoles. The project reflects both technical implementation and brand identity, designed to demonstrate full-stack development capability alongside product strategy and UX thinking.
 
-* Fast development environment powered by Vite
-* React-based component architecture
-* Hot Module Replacement (HMR) for instant updates
-* Organized and scalable project structure
-* ESLint integration for cleaner code
+---
 
-## Getting Started
+## The BYTE Story
 
-### Prerequisites
+BYTE began in June 2024 as a passion project founded by three brothers — **Hadi, Yaman, and Mohammed Awad**. What started as a small Instagram page centered around high-performance PC hardware and custom gaming builds quickly evolved into a broader vision.
 
-Make sure you have installed:
+The founders recognized a gap in the tech community: users were not only looking for components, but also for expertise, trust, and personality behind the builds they invest in. BYTE was created to bridge that gap between raw hardware and meaningful user experience.
 
-* Node.js
-* npm or yarn
+---
 
-### Installation
+## What We Do
 
-Clone the repository and install dependencies:
+BYTE operates across three core product categories:
 
-```bash
-npm install
-```
+* **Custom Gaming PCs**
+  High-performance, professionally assembled systems optimized for competitive gaming and demanding workloads.
 
-### Run Development Server
+* **Lazarus Laptops**
+  Restored and upgraded laptops that deliver flagship-level performance at accessible prices, extending device lifecycles through technical revitalization.
 
-```bash
-npm run dev
-```
+* **Modded Classics**
+  Refurbished and modified retro gaming consoles enhanced with modern reliability improvements while preserving their original identity and nostalgia.
 
-The application will be available at:
+---
 
-```text
-http://localhost:5173
-```
+## The BYTE Promise
 
-### Build for Production
+Every product is treated as a precision-engineered system rather than a commodity. BYTE focuses on:
 
-```bash
-npm run build
-```
+* Professional-grade assembly and optimization
+* Competitive and transparent pricing
+* Hardware restoration and lifecycle extension
+* Performance-first engineering mindset
 
-### Preview Production Build
+The goal is not simply to sell technology, but to build, mod, and restore systems that perform as if they were our own.
 
-```bash
-npm run preview
-```
+---
 
-## Project Structure
+## Mission Statement
 
-```text
-src/
-├── assets/
-├── components/
-├── pages/
-├── styles/
-└── App.jsx
-```
+BYTE aims to become a leading regional tech partner for gamers, creators, and professionals. The mission is to empower users with optimized, high-performance systems that enhance productivity, creativity, and competitive advantage.
 
-## Technologies Used
+Whether it is cutting-edge GPUs or nostalgic retro hardware, BYTE ensures every system is powerful, reliable, and ready for real-world performance demands.
+
+---
+
+## Project Purpose
+
+This project was developed as part of a university submission and portfolio work for internship and job applications, demonstrating:
+
+* Frontend development structure and UI design principles
+* Branding and product storytelling
+* E-commerce concept architecture
+* User-focused system design thinking
+
+---
+
+## Tech Stack 
 
 * React
 * Vite
 * JavaScript
-* CSS
-* ESLint
+* CSS / Tailwind
 
-## Future Improvements
+---
 
-* Add TypeScript support
-* Implement state management
-* Add unit and integration testing
-* Improve accessibility and responsiveness
+## Status
 
-## License
-
-This project is intended for educational and personal development purposes.
+This project is actively evolving as part of continuous learning and professional development.
