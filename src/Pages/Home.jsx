@@ -14,10 +14,10 @@ function Home() {
         <img
           src={BannerImage}
           alt=""
-          className="banner-logo xs:w-40 xs:h-40 sm:w-64 sm:h-64 md:w-86 md:h-86 lg:w-80 lg:h-80 xs:translate-y-[50%] sm:translate-y-[50%] md:translate-y-[-50%] lg:translate-y-[-20%] surfacePro7:translate-y-[-20%]"
+          className="banner-logo xs:w-40 xs:h-40 sm:w-64 sm:h-64 md:w-86 md:h-86 lg:w-80 lg:h-80 s:translate-y-[70%] sm:translate-y-[50%] md:translate-y-[-50%] lg:translate-y-[-20%] surfacePro7:translate-y-[-20%]"
           draggable={false}
         ></img>
-        <h1 className="banner-title  md:text-xl sm:text-md text-center lg:text-2xl  sm:line-height[3] surfacePro7:translate-y-[550%] xs:translate-y-[550%]  sm:translate-y-[550%]  md:translate-y-[-350%] lg:translate-y-[-100%]">Your trusted tech partner.</h1>
+        <h1 className="banner-title  md:text-xl sm:text-md text-center lg:text-4xl  sm:line-height[3] surfacePro7:translate-y-[550%] xs:translate-y-[550%]  sm:translate-y-[600%]  md:translate-y-[-350%] lg:translate-y-[-100%]">Your trusted tech partner.</h1>
         <img src={Banner} alt="Banner" className="banner md:shrink-0 xs:w-full"></img>
       </div>
       <div className="section2 mb-10">
@@ -45,7 +45,7 @@ function Home() {
         <img
           src={Display}
           alt="displayImg"
-          className="displayImg sm:w-64 sm:h-64 md:w-80 md:h-80 sm:translate-y-[50%] md:translate-y-[10%] lg:translate-y-[10%] xs:w-16 xs:h-16"
+          className="displayImg sm:w-64 sm:h-64 md:w-80 md:h-80 sm:translate-y-[20%] md:translate-y-[10%] lg:translate-y-[0%] xs:w-16 xs:h-16"
         ></img>
         <div className="img-info">
           <h1>Premium Tech for Every User.</h1>

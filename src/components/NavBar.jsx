@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <>
- 
       <div className="container w-full flex-wrap justify-between items-center mx-auto px-4">
         <div className="topbar ">
           <img src={Logo} alt="LOGO" className="logo"></img>
@@ -29,40 +28,39 @@ function NavBar() {
             </Link>
           </div>
         </div>
-        </div>
-        <div className="navbar ">
-          <ul className="nav-links md:flex md:justify-center md:items-center flex-col md:flex-row gap-3 text-left md:gap-10">
-            <li>
-              <Link to="/" className="nav-link">
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link to="/products" className="nav-link">
-                Products
-              </Link>
-            </li>
-            <li>
-              <Link to="/categories" className="nav-link">
-                Categories
-              </Link>
-            </li>
-            <li>
-              <Link to="/brands" className="nav-link">
-                Brands
-              </Link>
-            </li>
-            <li>
-              <Link to="/about-us" className="nav-link">
-                About Us
-              </Link>
-            </li>
-            <li className="phone">
-              <i className="fa-solid fa-phone phone"></i>+961 76-553016
-            </li>
-          </ul>
-        </div>
-      
+      </div>
+      <div className="navbar ">
+        <ul className="nav-links md:flex md:justify-center md:items-center flex-col md:flex-row gap-3 text-left md:gap-10">
+          <li>
+            <Link to="/" className="nav-link">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="/products" className="nav-link">
+              Products
+            </Link>
+          </li>
+          <li>
+            <Link to="/categories" className="nav-link">
+              Categories
+            </Link>
+          </li>
+          <li>
+            <Link to="/brands" className="nav-link">
+              Brands
+            </Link>
+          </li>
+          <li>
+            <Link to="/about-us" className="nav-link">
+              About Us
+            </Link>
+          </li>
+          <li className="phone">
+            <i className="fa-solid fa-phone phone"></i>+961 76-553016
+          </li>
+        </ul>
+      </div>
     </>
   );
 }
