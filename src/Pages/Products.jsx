@@ -2,7 +2,7 @@ import "../css/Products.css";
 import "../fontawesome/css/fontawesome.min.css";
 import "../fontawesome/css/all.css";
 import { Link } from "react-router-dom";
-import { products } from "./products";
+import { products } from "../products";
 function Products() {
   return (
     <>
