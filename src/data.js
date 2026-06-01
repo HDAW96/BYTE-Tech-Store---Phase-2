@@ -12,7 +12,6 @@ import DarkFlash from "./assets/darkflash.jpg";
 import Fantech from "./assets/fantech.png";
 import Micropack from "./assets/micropack.png";
 import AMD from "./assets/amd.png";
-
 import Laptops from "./assets/LAPTOPS.png";
 import Keyboards from "./assets/KEYBOARD.png";
 import Mouse from "./assets/MOUSE.png";
