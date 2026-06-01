@@ -2,73 +2,27 @@ import "../fontawesome/css/fontawesome.min.css";
 import "../css/Home.css";
 import BannerImage from "../assets/BYTE_Logo_1-removebg-preview (1).png";
 import Banner from "../assets/1080.jpg";
-import Laptops from "../assets/LAPTOPS.png";
-import Keyboards from "../assets/KEYBOARD.png";
-import Mouse from "../assets/MOUSE.png";
-import GamingPCs from "../assets/GAMING PCs.png";
-import CPUs from "../assets/CPU.png";
-import GPUs from "../assets/gpu.png";
-import Monitors from "../assets/Monitor.png";
-import AMD from "../assets/amd.png";
-
-import ASUS from "../assets/ASUS.png";
-
-import Promate from "../assets/promate.png";
-import Redragon from "../assets/redragon.png";
-import Gigabyte from "../assets/gigabyte-vector-logo.png";
-import Porodo from "../assets/porodo.png";
-import Madlions from "../assets/madlions.png";
-import Micropack from "../assets/micropack.png";
-import Zotac from "../assets/zotac.png";
-import ASRock from "../assets/ASRock-Logo.wine.png";
-import Acer from "../assets/acer.png";
-import MSi from "../assets/MSi.png";
-import Fantech from "../assets/fantech.png";
-import DarkFlash from "../assets/darkflash.jpg";
+import { categories } from "../data";
+import { brands } from "../data";
 import Display from "../assets/pexels-dkomov-34803979.jpg";
 import { Link } from "react-router-dom";
 function Home() {
-  const categories = [
-    { id: 1, name: "Laptop", img: Laptops },
-    { id: 2, name: "Keyboard", img: Keyboards },
-    { id: 3, name: "Mouse", img: Mouse },
-    { id: 4, name: "Gaming PC", img: GamingPCs },
-    { id: 5, name: "CPU", img: CPUs },
-    { id: 6, name: "GPU", img: GPUs },
-    { id: 7, name: "Monitor", img: Monitors },
-  ];
 
-  const brands = [
-    { id: 1, name: "Promate", img: Promate },
-    { id: 2, name: "Redragon", img: Redragon },
-    { id: 3, name: "Gigabyte", img: Gigabyte },
-    { id: 4, name: "Porodo", img: Porodo },
-    { id: 5, name: "Madlions", img: Madlions },
-    { id: 6, name: "Zotac", img: Zotac },
-    { id: 7, name: "ASRock", img: ASRock },
-    { id: 8, name: "MSi", img: MSi },
-    { id: 9, name: "ASUS", img: ASUS },
-    { id: 10, name: "Acer", img: Acer },
-    { id: 11, name: "Darkflash", img: DarkFlash },
-    { id: 12, name: "Fantech", img: Fantech },
-    { id: 13, name: "Micropack", img: Micropack },
-    { id: 14, name: "AMD", img: AMD },
-  ];
   return (
     <>
       <div className="banner-container">
         <img
           src={BannerImage}
           alt=""
-          className="banner-logo sm:shrink-0"
+          className="banner-logo xs:w-40 xs:h-40 sm:w-64 sm:h-64 md:w-86 md:h-86 lg:w-80 lg:h-80 xs:translate-y-[50%] sm:translate-y-[50%] md:translate-y-[-50%] lg:translate-y-[-20%] surfacePro7:translate-y-[-20%]"
           draggable={false}
         ></img>
-        <h1 className="banner-title sm:text-l md:text-3xl sm:translate-x-700">Your trusted tech partner.</h1>
-        <img src={Banner} alt="Banner" className="banner md:shrink-0"></img>
+        <h1 className="banner-title  md:text-xl sm:text-md text-center lg:text-2xl  sm:line-height[3] surfacePro7:translate-y-[550%] xs:translate-y-[550%]  sm:translate-y-[550%]  md:translate-y-[-350%] lg:translate-y-[-100%]">Your trusted tech partner.</h1>
+        <img src={Banner} alt="Banner" className="banner md:shrink-0 xs:w-full"></img>
       </div>
       <div className="section2 mb-10">
         <h2 className="category-title">Categories</h2>
-        <div className="categories md:flex-row flex-col gap-10 flex-wrap justify-center items-center sm:gap-20 sm:h-150">
+        <div className="categories md:flex-row flex-col md:gap-10 flex-wrap justify-center items-center sm:gap-15 sm:h-150">
           {categories.map((category) => (
             <div key={category.id} className="category">
               <Link
@@ -87,7 +41,12 @@ function Home() {
           ))}
         </div>
       </div>
-      <div className="img-section mb-10">
+      <div className="img-section mb-10 flex-wrap justify-center items-center xs:gap-10 sm:gap-20 xs:column md:gap-20 lg:gap-40">
+        <img
+          src={Display}
+          alt="displayImg"
+          className="displayImg sm:w-64 sm:h-64 md:w-80 md:h-80 sm:translate-y-[50%] md:translate-y-[10%] lg:translate-y-[10%] xs:w-16 xs:h-16"
+        ></img>
         <div className="img-info">
           <h1>Premium Tech for Every User.</h1>
           <br></br>
@@ -108,11 +67,7 @@ function Home() {
           </p>
         </div>
 
-        <img
-          src={Display}
-          alt="displayImg"
-          className="displayImg sm:w-16 sm:h-16 sm:object-cover"
-        ></img>
+        
       </div>
       <div className="section3 mb-10 ">
         <h2 className="category-title">Brands</h2>
