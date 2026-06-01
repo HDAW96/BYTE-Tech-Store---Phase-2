@@ -7,7 +7,7 @@ An immersive, high-performance web platform tailored for gaming enthusiasts, har
 * **Academic Year:** Spring 2025-2026
 * **Course:** CSCI390 Web Programming
 * **Supervisor:** Professor Haissam Al Aawar
-* **Developer:** [Insert Your Full Name Here]
+* **Developer:** Hadi Awad (HDAW96)
 
 ---
 
